@@ -1,0 +1,165 @@
+html, body {
+    height: 100%;
+    position: relative;
+    margin: 0;
+    overflow: auto;
+    background-color: rgba(129, 160, 168, 0.603) !important;
+}
+
+.navbar {
+    font-family: inherit;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 4px;
+    margin-bottom: 0px !important; 
+}
+
+.navbar.navbar-small {
+    background-color:rgb(51, 186, 196);
+}
+
+.navbar.navbar-default {
+    background-color:rgba(219, 219, 219, 0.932);
+}
+
+.navbar-brand {
+    color: rgb(66, 110, 121) !important;
+    text-shadow: 0.15em 0.15em 0 rgba(0, 0, 0, 0.1);
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: rgb(66, 110, 121);
+    text-shadow: 0.15em 0.15em 0 rgba(0, 0, 0, 0.1);
+}
+
+.wrapper { 
+    color: black;
+    min-height:85%;
+    font-family: inherit;
+    margin-bottom: 50px;           
+}
+
+
+.footer {
+    font-family: inherit;
+    background-color:rgba(219, 219, 219, 0.932);
+    bottom: 0 !important;
+    width: 100% !important;
+    position: fixed !important;
+}
+
+.footer p.right {
+    float: right !important;
+    margin-right:48px !important;
+    padding-top: 6px !important;
+}
+
+.fa {
+    font-size: 16px !important;
+    width: 35px !important;
+    height: 35px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    border-radius: 50% !important;
+}
+
+.fa-google {
+    padding: 10px;
+    background: rgb(196, 81, 81);
+    color: white;
+}
+
+.fa-facebook {
+    padding: 10px;
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    padding: 10px;
+    background: rgb(217, 160, 240);
+    color: white;
+}
+
+.fa-twitter {
+    padding: 10px;
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    padding: 10px;
+    background: rgb(32, 110, 170);
+    color: white;
+}
+
+.fa-github {
+    padding: 10px;
+    background: white;
+    color: black;
+
+}
+
+.fa:hover {
+    background-color: rgba(0, 0, 0, 0.123);
+}
+
+nametag {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-shadow: 0.1em 0.1em 0 rgba(0, 0, 0, 0.1);
+    letter-spacing: 4px;
+    padding-left: 10px;
+}
+
+.row{
+    padding-top: 50px;
+    padding-right: 10px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px 20px 5px 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    text-shadow: 0.06em 0.06em 0 rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.picture {
+    padding-left: 0px;
+    padding-top: 20px;            
+}
+
+.words {
+    padding-left: 16px;          
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 3%;
+}
+
+hr {
+    border-color: rgba(0, 0, 0, 0.582) !important;
+}
